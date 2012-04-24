@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/zhouxuewen/project/Mione'
+let g:netrw_dirhist_2='/home/zhouxuewen/project/nvidia/T4/datasheet/Android_Gingerbread_Enterprise_Release_for_AP30_BSP/package-android_gb_enterprise-12r12/android/vendor/nvidia/tegra/odm/enterprise'
+let g:netrw_dirhist_3='/home/zhouxuewen/project/Mione/miuiv4/frameworks/base/media/libmedia'
