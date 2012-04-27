@@ -1,0 +1,25 @@
+
+Kernel开发：
+git clone ssh://venusr/zenithink/kernel_zenith -b jupiter
+make jupiter_defconfig
+make
+vi a.c
+git add a.c (把文件放到暂存区，commit的时候会提交, 如果不是新文件，可以不用add，commit时候加-a参数)
+git status(可以看到a.c已经被放到暂存区)
+git commit -m "modify a.c"  （暂存区的文件提交到本地仓储)
+git fetch origin (从服务器拿到最新的代码，origin是远端仓储的名字，使用git remote可以得到,）
+git rebase origin/jupiter （使用rebase基于最新的代码生成提交，不用merge是避免服务器会产生dirty merge信息,远端分支可以用git remote -a得到）
+git push origin jupiter/jupiter（push的时候可以不加本地和远端的分支名，系统会使用默认的分支名，默认push的分支名通过git remote show origin可以看到）
+
+Android开发
+repo init -u venusr:android/platform/manifest.git --repo-url=venusr:android/tools/repo.git -b zenithink
+repo sync
+repo start zenithink --all (本地分支都切换到zenithink,本地远端使用一样的分支名以免混淆)
+cd project1
+vi b.c
+git commit -a -m "modify b.c"
+git add newfile
+git commit -m "add newfile"
+git fetch korg
+git rebase korg/zenithink
+git push korg zenithink:zenithink
