@@ -1,7 +1,3 @@
-1.root (hd0,6)
-kernel /boot/vmlinux-3.0.0-12-generic
-
-
 1. when will the tegra4 develop board be available?
 2. Is tegra4 ics bsp bata available now? when will the stable version be released?
 3. Tegra4 mass production time?
