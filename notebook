@@ -1,0 +1,19 @@
+1.root (hd0,6)
+kernel /boot/vmlinux-3.0.0-12-generic
+
+
+
+1. when will the tegra4 develop board be available?
+2. Is tegra4 ics bsp bata available now? when will the stable version be released?
+3. Tegra4 mass production time?
+
+1. Does all cpu cores share the same power supply? 
+2. What's the SMP type of tegra4? Is it the same as tegra3(vSMP)? What are the advantages and disadvantages?
+3. Is the T40 mainly designed for mobile phone or tablelet?? I notice the package is much bigger than the other two.
+4. What is the power consumption of tegra4 comparing to tegra3 & tegra2?
+5. Do you have benchmark data of tegra4 GPU performance comparing to other simliar GPUs from Qualcom Scropion,krait,TI?
+6. Have the maxium frequencies of each type of tegra4 chip been decided?
+7. How to calibrate ddr?
+
+
+ 
